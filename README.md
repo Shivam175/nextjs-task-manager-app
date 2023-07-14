@@ -4,7 +4,7 @@ This is a simple Task Manager App with CRUD operations. It uses Next.js Router, 
 
 ### :computer: Environment
 
-- Node.js >= 17.9.1
+- Node.js >= v17.9.1
 
 ### 🚀 Getting Started
 
@@ -22,4 +22,4 @@ This is a simple Task Manager App with CRUD operations. It uses Next.js Router, 
 
 ### :link: Deploy Link
 
-- <a href="https://nextjs-task-manager-app-v3.onrender.com/" target="_blank">View Live App</a>
+- [View Live App](https://nextjs-task-manager-app-v3.onrender.com/)
