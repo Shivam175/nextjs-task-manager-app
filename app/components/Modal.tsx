@@ -12,17 +12,21 @@ const Modal: FC<PropsWithChildren<ModalProps>> = ({
   children
 }) => {
   return (
-    <div className={`modal ${isOpen ? "modal-open" : ""}`}>
-      <div className="modal-box relative">
-        <label
-          onClick={() => closeModal()}
-          className="btn btn-sm btn-circle absolute right-2 top-2"
-        >
-          ✕
-        </label>
-        {children}
-      </div>
-    </div>
+    <>
+      {isOpen ? (
+        <div className={`modal ${isOpen ? "modal-open" : ""}`}>
+          <div className="modal-box relative">
+            <label
+              onClick={() => closeModal()}
+              className="btn btn-sm btn-circle absolute right-2 top-2"
+            >
+              ✕
+            </label>
+            {children}
+          </div>
+        </div>
+      ) : null}
+    </>
   );
 };
 
